@@ -1,0 +1,9 @@
+F:\Challenge\BotFactory\Factories\bin\Debug\Factories.dll
+F:\Challenge\BotFactory\Factories\bin\Debug\Factories.pdb
+F:\Challenge\BotFactory\Factories\bin\Debug\Common.dll
+F:\Challenge\BotFactory\Factories\bin\Debug\Models.dll
+F:\Challenge\BotFactory\Factories\bin\Debug\Common.pdb
+F:\Challenge\BotFactory\Factories\bin\Debug\Models.pdb
+F:\Challenge\BotFactory\Factories\obj\Debug\Factories.csprojResolveAssemblyReference.cache
+F:\Challenge\BotFactory\Factories\obj\Debug\Factories.dll
+F:\Challenge\BotFactory\Factories\obj\Debug\Factories.pdb

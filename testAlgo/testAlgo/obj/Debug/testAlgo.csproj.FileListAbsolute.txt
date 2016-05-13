@@ -1,0 +1,12 @@
+c:\users\c17developer\documents\visual studio 2015\Projects\testAlgo\testAlgo\bin\Debug\testAlgo.exe.config
+c:\users\c17developer\documents\visual studio 2015\Projects\testAlgo\testAlgo\bin\Debug\testAlgo.exe
+c:\users\c17developer\documents\visual studio 2015\Projects\testAlgo\testAlgo\bin\Debug\testAlgo.pdb
+c:\users\c17developer\documents\visual studio 2015\Projects\testAlgo\testAlgo\obj\Debug\testAlgo.csprojResolveAssemblyReference.cache
+c:\users\c17developer\documents\visual studio 2015\Projects\testAlgo\testAlgo\obj\Debug\testAlgo.exe
+c:\users\c17developer\documents\visual studio 2015\Projects\testAlgo\testAlgo\obj\Debug\testAlgo.pdb
+F:\Challenge\testAlgo\testAlgo\bin\Debug\testAlgo.exe.config
+F:\Challenge\testAlgo\testAlgo\obj\Debug\testAlgo.exe
+F:\Challenge\testAlgo\testAlgo\obj\Debug\testAlgo.pdb
+F:\Challenge\testAlgo\testAlgo\bin\Debug\testAlgo.exe
+F:\Challenge\testAlgo\testAlgo\bin\Debug\testAlgo.pdb
+F:\Challenge\testAlgo\testAlgo\obj\Debug\testAlgo.csprojResolveAssemblyReference.cache
