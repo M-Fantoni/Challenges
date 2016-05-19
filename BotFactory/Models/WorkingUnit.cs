@@ -41,8 +41,13 @@ namespace BotFactory.Models
         //}
         public Task<bool> WorkBegins()
         {
+            StatusChangedEventArgs args = new StatusChangedEventArgs();
+            args.NewStatus = "Going to work";
+            OnStatusChanged(args);
+
             return Task.Factory.StartNew(() =>
             {
+                
                 CurrentPos.X = ParkingPos.X;
                 CurrentPos.Y = ParkingPos.Y;
                 Move(WorkingPos.X, WorkingPos.Y);

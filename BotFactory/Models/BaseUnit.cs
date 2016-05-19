@@ -20,6 +20,7 @@ namespace BotFactory.Models
         {
             Name = name;
             Speed = speed;
+            CurrentPos = new Coordinates(0,0);
 
         }
 
@@ -91,10 +92,11 @@ namespace BotFactory.Models
             MovementComplete = true;
 
         }
-        protected override void OnStatusChanged(StatusChangedEventArgs args)
-        {
-            base.OnStatusChanged(args);
-        }
+
+        //protected override void OnStatusChanged(StatusChangedEventArgs args)
+        //{
+        //    base.OnStatusChanged(args);
+        //}
 
     }
 }

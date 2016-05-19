@@ -83,11 +83,15 @@ namespace BotFactory.Factories
         public Task Construct(IFactoryQueueElement queueElt )
         {
             Object obj = Activator.CreateInstance(queueElt.Model);
-            var item = obj as ITestingUnit;
+            var bot = obj as ITestingUnit;
+            bot.Name = queueElt.Name;
+            bot.ParkingPos = queueElt.ParkingPos;
+            bot.WorkingPos = queueElt.WorkingPos;
+            
 
             return Task.Factory.StartNew(() =>
             {
-                if (item == null)
+                if (bot == null)
                 {
                     IsConstructing = false;
                     Console.WriteLine("Construction failed : impossible to read bot specification");
@@ -95,8 +99,8 @@ namespace BotFactory.Factories
                 else
                 {
 
-                    Thread.Sleep(TimeSpan.FromSeconds(item.BuildTime));
-                    Storage.Add(item);
+                    Thread.Sleep(TimeSpan.FromSeconds(bot.BuildTime));
+                    Storage.Add(bot);
                 }
             });
         }
@@ -115,6 +119,7 @@ namespace BotFactory.Factories
                         IsConstructing = true;
                         Console.WriteLine("starting construction");
                         await Construct(bot);
+                        AddTestingUnit(bot as ITestingUnit);
                         indexOfQueue.Add(i);
                         //Console.WriteLine("construction ended : {0}",bot.Name);
                     }
@@ -159,11 +164,7 @@ namespace BotFactory.Factories
 
         public void OnFactoryProgress(FactoryProgressEventArgs e)
         {
-            EventHandler<IFactoryProgressEventArgs> handler = FactoryProgress;
-            if (handler != null)
-            {
-                handler(this, e);
-            }
+            FactoryProgress?.Invoke(this, e);
         }
 
         #endregion

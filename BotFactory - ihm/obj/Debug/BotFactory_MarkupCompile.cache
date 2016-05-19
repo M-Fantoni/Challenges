@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-F:\Challenge\BotFactory - ihm\obj\Debug\
+C:\devs\Challenges\BotFactory - ihm\obj\Debug\
 BotFactory
 none
 false
 DEBUG;TRACE
-F:\Challenge\BotFactory - ihm\App.xaml
+C:\devs\Challenges\BotFactory - ihm\App.xaml
 3-1892574572
 
 10-45346543
-161158955908
+16651692719
 MainWindow.xaml;Pages\FactoryTest.xaml;Pages\UnitTest.xaml;
 
 False

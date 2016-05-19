@@ -42,7 +42,6 @@
   <ItemGroup>
     <Compile Include="FactoryProgressEventArgs.cs" />
     <Compile Include="FactoryQueueElement .cs" />
-    <Compile Include="ReportingFactory.cs" />
     <Compile Include="UnitFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

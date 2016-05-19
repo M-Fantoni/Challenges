@@ -1,5 +1,6 @@
 ﻿using BotFactory.Common.Interface;
 using BotFactory.Common.Tools;
+using BotFactory.Models;
 using Common.Interface;
 using System;
 using System.Collections.Generic;

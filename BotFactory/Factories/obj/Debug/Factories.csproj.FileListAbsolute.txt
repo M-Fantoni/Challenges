@@ -7,3 +7,12 @@ F:\Challenge\BotFactory\Factories\bin\Debug\Models.pdb
 F:\Challenge\BotFactory\Factories\obj\Debug\Factories.csprojResolveAssemblyReference.cache
 F:\Challenge\BotFactory\Factories\obj\Debug\Factories.dll
 F:\Challenge\BotFactory\Factories\obj\Debug\Factories.pdb
+C:\devs\Challenges\BotFactory\Factories\bin\Debug\Factories.dll
+C:\devs\Challenges\BotFactory\Factories\bin\Debug\Factories.pdb
+C:\devs\Challenges\BotFactory\Factories\bin\Debug\Common.dll
+C:\devs\Challenges\BotFactory\Factories\bin\Debug\Models.dll
+C:\devs\Challenges\BotFactory\Factories\bin\Debug\Common.pdb
+C:\devs\Challenges\BotFactory\Factories\bin\Debug\Models.pdb
+C:\devs\Challenges\BotFactory\Factories\obj\Debug\Factories.csprojResolveAssemblyReference.cache
+C:\devs\Challenges\BotFactory\Factories\obj\Debug\Factories.dll
+C:\devs\Challenges\BotFactory\Factories\obj\Debug\Factories.pdb
